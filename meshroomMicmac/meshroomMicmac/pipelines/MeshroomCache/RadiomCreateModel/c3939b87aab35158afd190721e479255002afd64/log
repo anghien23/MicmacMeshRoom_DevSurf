@@ -1,0 +1,8 @@
+
+
+ ######################################
+
+Level=[UserEr:UnClassedError]
+Mes=[SuppressDirFromNameFile:No match for subdir, with name= Dir=MMVII-PhgrProj/Ori/]
+========= ARGS OF COMMAND ==========
+MMVII RadiomCreateModel _ABC3[4-5][9,0,1][0-9].tif Init2  DegIma=2 DegRadSens=5 

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "MeshImageDevlp_1",
+    "nodeType": "MeshImageDevlp",
+    "packageName": "meshroomMicmac.mmvii",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "MMVII MeshImageDevlp \"Dev2D_Clip_Correc_mesh.ply\" \"DEV\"  WGL=0 WRGBL=0 InRadModel=\"Init2\" WithNormal=0",
+    "env": null,
+    "startDateTime": "2023-09-19 14:08:15.114822",
+    "endDateTime": "2023-09-19 14:08:45.036364",
+    "elapsedTime": 29.92154836654663,
+    "hostname": "HPE2101P149",
+    "sessionUid": "1abb6a06-56dc-11ee-a5f4-a497b15e9669",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:29.921548"
+}

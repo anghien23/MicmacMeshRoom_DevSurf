@@ -1,0 +1,18 @@
+{
+    "status": "ERROR",
+    "execMode": "LOCAL",
+    "nodeName": "MeshProjImage_1",
+    "nodeType": "MeshProjImage",
+    "packageName": "meshroomMicmac.mmvii",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "MMVII MeshProjImage \"\"_ABC3[4-5][9,0,1][0-9].tif\"\" \"Dev3D_Clip_Correc_mesh.ply\" \"\" \"DEV\"  OutRadData=\"R0\"",
+    "env": null,
+    "startDateTime": "2023-09-19 14:03:23.915880",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "HPE2101P149",
+    "sessionUid": "1abb6a06-56dc-11ee-a5f4-a497b15e9669",
+    "returnCode": -6,
+    "elapsedTimeStr": "0:00:00"
+}
