@@ -5,7 +5,7 @@ from meshroom.core import desc
 from meshroomMicmac.custom import node
 
 class SaisieMasqQT(node.MicmacNode):
-    commandLine = 'mm3d SaisieMasqQT {filePathvalue}'
+    commandLine = 'mm3d SaisieMasqQT {filePathValue}'
     documentation = 'SaisieMasqQT'
 
     inputs = [

@@ -4,7 +4,7 @@ from meshroom.core import desc
 from meshroomMicmac.custom import node
 
 class Malt(node.MicmacNode):
-    commandLine = 'mm3d Malt {correlationModeValue} {imagePatternValue} {orientationValue} NbVI={NbViValue} ZoomF={ZoomFValue} ResolTerrain={ResolTerrainValue} DefCor={DefCorValue} CostTrans={CostTransValue} EZA={EZAValue}'
+    commandLine = 'mm3d Malt {correlationModeValue} {imagePatternValue} {orientationValue} NbVI={NbViValue} ZoomF={ZoomFValue} DefCor={DefCorValue} CostTrans={CostTransValue} EZA={EZAValue}'
     documentation = '''Malt'''
 
     inputs = [
@@ -79,7 +79,7 @@ class Malt(node.MicmacNode):
             label='Default Correlation',
             description='Default Correlation in un correlated pixels',
             value=0.2,
-            range=(0.1, 1.0, 0.1),
+            range=(0.0, 1.0, 0.1),
             uid=[0],
         ),
         desc.FloatParam(

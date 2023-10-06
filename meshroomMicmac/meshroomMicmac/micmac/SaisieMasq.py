@@ -5,7 +5,7 @@ from meshroom.core import desc
 from meshroomMicmac.custom import node
 
 class SaisieMasq(node.MicmacNode):
-    commandLine = 'mm3d SaisieMasqQT IMAGE_POUR_PLAN Attr={AttrValue}'
+    commandLine = 'mm3d SaisieMasqQT {imagePathValue} Attr={AttrValue}'
     documentation = 'SaisieMasq'
 
     inputs = [
@@ -22,7 +22,7 @@ class SaisieMasq(node.MicmacNode):
             label='File Path',
             description='''Path of the file to open (image or PLY or camera XML).''',
             group='', # unnamed parameter
-            value="INSERER IMAGE POUR DEFINIR LE PLAN",
+            value="INSERER_IMAGE_POUR_DEFINIR_LE_PLAN",
             uid=[0],
         ),
         desc.StringParam(

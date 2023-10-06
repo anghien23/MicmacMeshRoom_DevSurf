@@ -5,12 +5,12 @@
         "fileVersion": "1.1",
         "template": true,
         "nodesVersions": {
-            "Tarama": "0.0",
-            "Tawny": "1.1.1",
             "TapiocaMulScale": "1.1.1",
-            "Malt": "1.0",
             "Tapas": "1.1.1",
-            "SaisieMasq": "1.1.1"
+            "Tawny": "1.1.1",
+            "SaisieMasq": "1.1.1",
+            "Malt": "1.0",
+            "Tarama": "0.0"
         }
     },
     "graph": {
@@ -35,7 +35,7 @@
                 -162
             ],
             "inputs": {
-                "projectDirectory": "/home/an-fb-micmac/Documents/data/jeux_test",
+                "projectDirectory": "ECRIRE_CHEMIN_DOSSIER_IMAGES",
                 "imagePattern": ".*[0-9].(jpg|jpeg|JPG|JPEG|png|PNG|tif|tiff|TIF|TIFF)",
                 "imageSizeLowResolution": 400,
                 "wallisFilter": "@SFS"
@@ -63,7 +63,10 @@
                 "projectDirectory": "{SaisieMasq_1.projectDirectory}",
                 "imagePattern": "{SaisieMasq_1.imagePattern}",
                 "orientation": "{SaisieMasq_1.orientationDir}",
-                "waitFor": "{SaisieMasq_1.xmlMeasures}"
+                "waitFor": "{SaisieMasq_1.xmlMeasures}",
+                "NbVi": 2,
+                "DefCor": 0.0,
+                "CostTrans": 4.0
             }
         },
         "Tawny_1": {
@@ -86,7 +89,7 @@
             ],
             "inputs": {
                 "projectDirectory": "{Tarama_1.projectDirectory}",
-                "imagePath": "/TA/TA_LeChantier.tif",
+                "imagePath": "\"./TA/TA_LeChantier.tif\"",
                 "imagePattern": "{Tarama_1.imagePattern}",
                 "orientationDir": "{Tarama_1.orientation}",
                 "waitFor": "{Tarama_1.outputDirectory}"
